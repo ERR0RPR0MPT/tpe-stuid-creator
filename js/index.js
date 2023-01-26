@@ -83,7 +83,7 @@ https://s.codepen.io/pcchou/debug/qaAmYN
   drawText(canvas, school_name_b.join(''), 52, 3, 1, 0.711, 0.717);
   context.textAlign = "left";
   drawText(canvas, "地址：" + property['school_address'], 26, 3, 1, (0.711 - 0.55 / 2), 0.902);
-  drawText(canvas, "電話：" + property['school_phone'], 26, 3, 1, (0.711 - 0.55 / 2), 0.949);
+  drawText(canvas, "入学时间：" + property['school_phone'], 26, 3, 1, (0.711 - 0.55 / 2), 0.949);
 
   // barcode
   JsBarcode("#barcode", property['student_number'], {
